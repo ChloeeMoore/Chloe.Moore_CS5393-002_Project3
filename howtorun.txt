@@ -1,0 +1,11 @@
+Save files to a folder in VS code
+Save data files to a sample_data folder within the previous folder
+Right click on overall folder, click open in integrated terminal
+In terminal, type mkdir build, enter
+Type cd build, enter
+Type cmake .., enter
+Type make, enter
+Type ctest, enter 
+    (to test all classes)
+Type ./supersearch, enter
+    (to run search engine)
