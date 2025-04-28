@@ -4,13 +4,10 @@ Chloe Moore
 
 Instructions on how to run code are in howtorun.txt file
 
-This C++ search engine is built to efficiently process and search through a collection of documents. 
-It consists of several main components: the documentparser, which reads and extracts important terms 
-and data from the documents; the indexhandler, which stores these terms in a self-balancing dsavltree 
-for fast searching; and the queryprocessor, which takes user queries, searches the index, and ranks the 
-results based on relevance. The searchengine ties everything together, handling the overall process of 
-parsing documents, indexing terms, and processing queries. Finally, the userinterface allows users to 
-enter search terms and view the results in a simple, clear format. This design makes the system efficient, 
-easy to scale, and easy to maintain, as each component has a specific role in the search process.
+Objective:
+This C++ search engine is designed to efficiently handle and search a collection of documents.
+It’s structured around key components: the DocumentParser, which extracts important terms and metadata; the IndexHandler, which organizes these terms in a self-balancing dsavltree for rapid retrieval; and the QueryProcessor, which interprets user queries, searches the index, and ranks results by relevance.
+The SearchEngine orchestrates the full workflow — parsing documents, building the index, and executing searches — while the UserInterface provides a clean, simple way for users to input queries and view results.
+By giving each module a focused role, the system stays efficient, scalable, and easy to maintain.
 
 Resources: chatgpt.com, json.org, rapidjson.org, wikipedia.org, Ria Mukherji, Anekah Kelley, Megan Appel, Diego Mejia
